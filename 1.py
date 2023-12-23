@@ -1,4 +1,6 @@
-#single line comment: #
+# print("Hello World")
+
+# single line comment: #
 
 # \n for new line
 # print("hello \n ywr")
@@ -8,4 +10,3 @@
 
 # seprater & end in python
 # print(7,8,6,sep="`",end="007")
-
