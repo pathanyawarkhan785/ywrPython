@@ -1,1 +1,1 @@
-Code With Harry 100 days of code(Pytthon) Notes.
+Code With Harry 100 days of code(Python) with Notes.
