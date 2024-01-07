@@ -1,2 +1,1 @@
-)
-# print(dict1)
+print(lst[::-1])
