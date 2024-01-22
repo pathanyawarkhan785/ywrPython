@@ -1,7 +1,7 @@
 # lst = [2, 342, 53, 123, 64]
 lst = "yawar"
-print(lst[::1])
-print(lst[0 : len(lst) : 1])
+print(lst[::-1])
+print(lst[0 : len(lst) : -1])
 
 # index = 0
 # for i in range(1, 11):
