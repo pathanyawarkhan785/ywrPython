@@ -1,7 +1,7 @@
 # same as list but immutable
 # same process as list like slicing
 
-# tpl = (23, 56, 23, 74)
+tpl = (23, 56, 23, 74)
 # tpl2 = tpl
 
 # print(tpl)

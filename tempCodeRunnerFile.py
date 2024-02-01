@@ -1,1 +1,1 @@
-print(lst[::-1])
+print(x)
