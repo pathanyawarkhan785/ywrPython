@@ -1,4 +1,4 @@
-num = 5
+num = int(input("Enter a number you want factorial: "))
 fact = 1
 
 if num < 0:

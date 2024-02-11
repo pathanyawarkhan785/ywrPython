@@ -1,0 +1,1 @@
+tabelNum = 7
