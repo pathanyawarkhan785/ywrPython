@@ -139,5 +139,14 @@ str3 = "hello mark, I am sr.mark."
 
 # title
 
-title = "hello james how are you"
-print(title.title())  # converts all the word's first character into capital letter.
+# title = "hello james how are you"
+# print(title.title())  # converts all the word's first character into capital letter.
+
+# isnumeric
+"""The isnumeric() method returns True if all the characters are numeric (0-9), otherwise False.
+Exponents, like ² and ¾ are also considered to be numeric values.
+"-1" and "1.5" are NOT considered numeric values, because all the characters in the string must be numeric, and the - and the . are not."""
+
+txt = "121"
+x = txt.isnumeric()
+print(x)
