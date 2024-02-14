@@ -1,4 +1,4 @@
+num = int(input("From how many numbers you want to: "))
 
 
-
-print(fact(5))
+print(num)
