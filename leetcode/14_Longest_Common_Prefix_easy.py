@@ -1,21 +1,17 @@
-# class Solution:
-#     def longestCommonPrefix(self, strs):
-#         commonPrefix = ""
-#         strs = sorted(strs, key=len)
-#         # print(strs)
-#         for i in range(len(strs)):
-#             for j in range(0, len(strs)):
-#                 # print(j, i)
-#                 if (
-#                     j + 2 < len(strs)
-#                     and strs[j][i] == strs[j + 1][i]
-#                     and strs[j][i] == strs[j + 2][i]
-#                 ):
-#                     # print(strs[j][i])
-#                     commonPrefix += strs[j][i]
+strs = ["flower", "flow", "flight", "flop"]
 
-#         return commonPrefix
+strs.sort(key=len)
+print(strs)
 
+temp = strs[0]
+newTemp = ""
 
-# newStr = Solution()
-# print(newStr.longestCommonPrefix(["flower", "flow", "flight"]))
+j = 1
+
+for i in range(0, len(strs[0])):
+    if temp[i] == strs[j][i]:
+        newTemp += temp[i]
+        temp = temp.replace(temp, newTemp)
+j += 1
+
+print(newTemp)

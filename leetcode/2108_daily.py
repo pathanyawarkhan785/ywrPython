@@ -9,4 +9,4 @@ class Solution:
 
 
 newDaily = Solution()
-print(newDaily.firstPalindrome(["notapalindrome", "racecar2"]))
+print(newDaily.firstPalindrome(["notapalindrome", "racecar"]))

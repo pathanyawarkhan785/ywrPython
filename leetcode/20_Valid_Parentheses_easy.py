@@ -13,8 +13,11 @@ class Solution:
             else:
                 myli2.append(i)
 
-        print("true") if (len(myli) == len(myli2)) else print("false")
+        if len(myli) == len(myli2):
+            return "true"
+        else:
+            return "false"
 
 
 newStr = Solution()
-newStr.isValid("()")
+print(newStr.isValid("()"))

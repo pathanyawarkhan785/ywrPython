@@ -1,4 +1,7 @@
+s = "luffy is still     joyboy          "
 
+
+class Solution:
     def lengthOfLastWord(self, s):
 
         # try 1
@@ -13,4 +16,8 @@
         # try 3
         s = s.strip()
         s = s.split(" ")
-        print(s)
+        print(len(s[-1]))
+
+
+# newLen = Solution()
+# print(newLen.lengthOfLastWord(s))
