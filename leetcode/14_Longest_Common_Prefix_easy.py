@@ -5,10 +5,13 @@ class Solution:
         temp = strs[0]
         newTemp = ""
 
-        for j in range(1, len(strs)):
-            for i in range(0, len(temp)):
-                if temp[i] == strs[j][i]:
-                    newTemp += temp[i]
+        print(strs)
+
+        for i in range(1, len(strs)):
+            # print(i, len(strs))
+            for j in range(0, len(temp)):
+                if temp[j] == strs[i][j]:
+                    newTemp += temp[j]
 
             temp = ""
             temp = newTemp
@@ -18,4 +21,4 @@ class Solution:
 
 
 newLongestCommon = Solution()
-print(newLongestCommon.longestCommonPrefix(["flower", "flow", "floght", "flop"]))
+print(newLongestCommon.longestCommonPrefix(["cir", "car"]))
