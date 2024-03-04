@@ -1,23 +1,19 @@
 class Solution:
-    def isValid(self, s: str) -> bool:
+    def isValid(self, s):
+        myPare = []
 
-        openBracks = "{(["
-        closeBracks = "})]"
+        for c in s:
+            if c == "(":
+                myPare.append(")")
+            elif c == "{":
+                myPare.append("}")
+            elif c == "[":
+                myPare.append("]")
+            elif not myPare or myPare.pop() != c:
+                return False
 
-        myli = []
-        myli2 = []
-
-        for i in s:
-            if i in openBracks:
-                myli.append(i)
-            else:
-                myli2.append(i)
-
-        if len(myli) == len(myli2):
-            return "true"
-        else:
-            return "false"
+        return not myPare
 
 
-newStr = Solution()
-print(newStr.isValid("()"))
+newVaild = Solution()
+print(newVaild.isValid("(){}"))
