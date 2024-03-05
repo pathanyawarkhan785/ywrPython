@@ -19,4 +19,4 @@ class Solution:
 
 
 newReverse = Solution()
-print(newReverse.reverse(-23))
+print(newReverse.reverse(23))
