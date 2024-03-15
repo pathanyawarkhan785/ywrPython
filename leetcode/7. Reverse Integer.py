@@ -5,7 +5,7 @@ class Solution:
         if int(temp) < 0:
             temp = temp.replace(temp[0], "")
             temp = temp[::-1]
-            temp = int("-" + temp)
+            temp = -int(temp)
             if temp < -2147483648:
                 return 0
             return temp
@@ -19,4 +19,4 @@ class Solution:
 
 
 newReverse = Solution()
-print(newReverse.reverse(23))
+print(newReverse.reverse(-23))
