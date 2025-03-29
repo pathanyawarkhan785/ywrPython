@@ -6,16 +6,16 @@
 # # The values False and 0 are considered the same value in sets, and are treated as duplicates:
 # # A set is a collection which is unordered, unchangeable*, and unindexed.
 
-# st = {1, 4, 6, 2, 4, 1, 2, 3, 4}
+st = {1, 4, 6, 2, 4, 1, 2, 3, 4}
 # print(st)
 # print(len(st))
 
 # for item in st:
 #     print(item)
 
-# # to create empty set
+# to create empty set
 
-# emptySet = set()
+emptySet = set()
 # print(type(emptySet))
 
 # set methods

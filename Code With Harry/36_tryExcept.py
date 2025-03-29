@@ -1,19 +1,19 @@
 # a = int(input("enter val: "))
-# # b = [2, 7]
+# b = [2, 7]
 
 # try:
 #     a = a + 2
 #     print(a)
-#     # print(b[a])
+#     print(b[a])
 
 # except ValueError as err:
 #     print(err)
 
-# # except IndexError as err:
-# #     print(err)
+# except IndexError as err:
+#     print(err)
 
-# # except TypeError as err:
-# #     print(err)
+# except TypeError as err:
+#     print(err)
 
 # print("imp code needs to run.")
 

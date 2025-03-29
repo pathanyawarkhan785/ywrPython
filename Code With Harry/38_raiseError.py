@@ -1,10 +1,9 @@
-a = input("enter val: ")
+a = int(input("enter val: "))
 
-if a == "quit":
-    print("quit")
+print(isinstance(a, int))
 
-elif int(a) < 1 or int(a) > 10:
-    raise ValueError("value must be between 0 to 11.")
+if a < 1 or a > 10:
+    raise ValueError("Value must be between 1 to 10.")
 
 else:
     print(a)

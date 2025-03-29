@@ -1,6 +1,6 @@
-# lst = [[1, 2, 433, 13], [5, 6, 78, 32]]
-# max = lst[0][0]
-# ind = [0, 1]
+lst = [[1, 2, 433, 13], [5, 6, 78, 32]]
+max = lst[0][0]
+ind = [0, 1]
 
 
 class twoDimMaxList:
@@ -15,5 +15,5 @@ class twoDimMaxList:
         return ind
 
 
-# maxNum = twoDimMaxList()
-# print(maxNum.twodMaxlist(lst, max, ind))
+maxNum = twoDimMaxList()
+print(maxNum.twodMaxlist(lst, max, ind))

@@ -1,40 +1,25 @@
 list1 = [2, 6, 2, 5, 4, 9, 3]
 
-# # map
+# map
+# with single iterators & lambda
 
-# # def sum(x, y):
-# #     return x + y
+# print(list(map(lambda x: x**2, list1)))
 
+# with multiple iterators
+# sum = lambda x, y: x + y
 
-# # val1 = [1, 2, 3]
-# # val2 = [
-# #     4,
-# #     5,
-# #     6,
-# # ]
+# val1 = [1, 2, 3]
+# val2 = [4, 5, 6]
 
-# # mapVal = list(map(sum, val1, val2))
-# # print(mapVal)
-
-# # filter
+# mapVal = list(map(sum, val1, val2))
+# print(mapVal)
 
 
-# def filFunc(x):
-#     return x > 5
-
-
-# # without lambda
-
-# filterList = list(filter(filFunc, list1))
-# print(filterList)
-
-# # with lambda
-
-# filterList = list(filter(lambda x: x > 5, list1))
+# filter with lambda
+# filterList = list(filter(lambda x: x > 3, list1))
 # print(filterList)
 
 # reduce
-
 from functools import reduce
 
 reduceList = reduce(lambda x, y: x - y, list1)
@@ -47,4 +32,8 @@ reduceList = reduce(lambda x, y: x - y, list1)
 # -15 - 9 = -24 then subtract 7th value
 # -24 -3 = -27 then subtract 8th value
 
-print(reduceList)
+# print(reduceList)
+
+lst2 = [1, 2, 3, 4]
+rList = reduce(lambda x, y: x + y, lst2)
+print(rList)

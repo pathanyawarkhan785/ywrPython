@@ -1,4 +1,1 @@
-num = int(input("From how many numbers you want to: "))
-
-
-print(num)
+ for i in range(0, len(newStr), 2):

@@ -1,1 +1,2 @@
-print(x)
+ip:
+#     print(i, j, k)

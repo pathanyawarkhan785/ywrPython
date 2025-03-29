@@ -1,12 +1,13 @@
-# print("Hello World")
+print("Hello World")
 
 # single line comment: #
 
 # \n for new line
-# print("hello \n ywr")
+print("hello \nywr")
 
 # escape character: \
-# print("hello \"yawar\"")
+print("hel\"lo 'yawar")
+print("hel\"lo 'yawar")
 
 # seprater & end in python
-# print(7,8,6,sep="`",end="007")
+print(7, 8, 6, sep="*", end="007")

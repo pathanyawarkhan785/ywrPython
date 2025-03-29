@@ -14,15 +14,15 @@
 # good afternoon
 # good evening
 
-hour = int(input("enter hour: "))
-min = int(input("enter minute: "))
+hour = int(input("Enter hour: "))
+minute = int(input("Enter minute: "))
 
-if hour > 23 or min > 59:
-    print("enter hour & min correctly.")
-
-if hour < 12 and min < 60:
-    print("Good Morning")
-elif hour > 13 and hour < 18 and min < 60:
-    print("Good Evening")
+if hour > 23 or hour < 0 or minute > 59 or minute < 0:
+    print("Please enter hour and minute correctly.")
 else:
-    print("Good Night")
+    if hour < 12:
+        print("Good Morning")
+    elif hour < 18:
+        print("Good Evening")
+    else:
+        print("Good Night")

@@ -16,7 +16,7 @@ lst = [42, 56, 24, 87, 23]
 # print(lst[-3])  # lst[len(lst) + (-3)] -> lst[(5 + (-3))] -> lst[2] -> 24
 
 # # list comprehension
-# i = 0
+
 # newLst = [i * i for i in range(1, 6) if (i % 2 == 0)]
 # print(newLst)
 
@@ -28,7 +28,7 @@ lst = [42, 56, 24, 87, 23]
 
 # list methods
 
-lstMethod = [4, 24, 21, 16, 54, 75, 23, 16]
+lstMethod = [4, 24, 21, 16, 54, 75, 23, 16, 21]
 
 # append
 # The append() method appends an element to the end of the list.
@@ -41,12 +41,16 @@ lstMethod = [4, 24, 21, 16, 54, 75, 23, 16]
 # sort(reverse=True) sorts the list descending
 
 # sortList = [46, 324, 7, 123, 74, 342]
-# print(sortList.sort())
+# sortList.sort()
 # print(sortList)
 
 # reverse
 
-# revStr = [14, 23, 64]
+revStr = [14, 23, 64]
+# 1st method
+# print(revStr[::-1])
+
+# 2nd method
 # revStr.reverse()
 # print(revStr)
 
@@ -62,10 +66,9 @@ lstMethod = [4, 24, 21, 16, 54, 75, 23, 16]
 # copy
 
 # copyList = [1, 2, 3, 4, 5]
-# # print(copyList)
 
-# lst2 = copyList
 # lst2 = copyList.copy()
+
 # lst2[0] = 5
 
 # print(lst2)
@@ -93,7 +96,7 @@ lstMethod = [4, 24, 21, 16, 54, 75, 23, 16]
 # print(arr)
 # print(arr2)
 
-# # pass by value
+# pass by value
 
 # arr = [1, 2, 3]
 # arr2 = arr.copy()

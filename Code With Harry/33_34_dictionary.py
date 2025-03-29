@@ -4,13 +4,13 @@ dict = {"name": "abc", "class": 1, "sem": 2}
 
 # if key not exists in dict["name"] throws error while dict.get("name") returns None.
 
-# print(dict["name"])
-# print(dict.get("name"))
+# print(dict["name1"])
+# print(dict.get("name1"))
 
 # print(dict.keys())
 # print(dict.values())
 
-# dictItems = dict.items()
+dictItems = dict.items()
 # print(dictItems)
 
 # for key, val in dictItems:

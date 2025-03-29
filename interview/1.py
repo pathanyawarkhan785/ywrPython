@@ -1,4 +1,4 @@
-input = "A5B7C"
+input = "A5B7C3"
 temp = ""
 
 i = 0

@@ -1,6 +1,6 @@
 def func(n):
-    """this is a doc string."""
-    n = n * 2
+    """this is a doc string. we are doing square of a number."""
+    n = n * n
     return n
 
 

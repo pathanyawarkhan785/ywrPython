@@ -1,6 +1,6 @@
 # # here is 2 methods for printing 1 to 10 by range
 
-# for i in range(10):
+# for i in range(10):  # (0,10) 0,1,2,..9
 #     print(i + 1)
 
 # print("---------------------------------")
@@ -13,7 +13,7 @@
 # for i in range(0, 21, 2):
 #     print(i)
 
-# fruits = ["banana", "apple", "orange", "grapes"]
+fruits = ["banana", "apple", "orange", "grapes"]
 # print(fruits)
 
 # for fruit in fruits:

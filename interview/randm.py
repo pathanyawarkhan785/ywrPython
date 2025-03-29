@@ -2,7 +2,11 @@ import random
 
 lst = []
 
-for i in range(0, 10):
-    lst.append(int(random.random() * 10))
+i = 1
+while i <= 10:
+    val = int(random.randint(1, 100))
+    if val not in lst:
+        lst.append(val)
+        i += 1
 
-print(list(set(lst)))
+print(lst)

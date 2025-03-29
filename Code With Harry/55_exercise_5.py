@@ -1,28 +1,28 @@
 import random
 
-# diction = {1: "Snake", 2: "Water", 3: "Gun"}
-# print("1.Snake 2.Water 3.Gun")
-# inp = int(input("select any one: "))
+diction = {1: "Snake", 2: "Water", 3: "Gun"}
+print("1.Snake 2.Water 3.Gun")
+inp = int(input("select any one: "))
 
-# userChoose = diction[inp]
-# compChoose = random.choice(list(diction.values()))
+userChoose = diction[inp]
+compChoose = random.choice(list(diction.values()))
 
-# print(f"user chooses: {diction[inp]}")
-# print(f"computer chooses: {compChoose}")
+print(f"user chooses: {diction[inp]}")
+print(f"computer chooses: {compChoose}")
 
-# if userChoose == compChoose:
-#     print("Draw")
-# elif (
-#     userChoose == "Snake"
-#     and compChoose == "Water"
-#     or userChoose == "Gun"
-#     and compChoose == "Snake"
-#     or userChoose == "Water"
-#     and compChoose == "Gun"
-# ):
-#     print("User Wins.")
-# else:
-#     print("Computer Wins.")
+if userChoose == compChoose:
+    print("Draw")
+elif (
+    userChoose == "Snake"
+    and compChoose == "Water"
+    or userChoose == "Gun"
+    and compChoose == "Snake"
+    or userChoose == "Water"
+    and compChoose == "Gun"
+):
+    print("User Wins.")
+else:
+    print("Computer Wins.")
 
 
 # method 2

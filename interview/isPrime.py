@@ -1,10 +1,15 @@
-a = 412
+import math
 
-if a == 1:
+a = int(input("Enter num: "))
+
+if a < 1:
+    print("enter valid input.")
+
+elif a == 1:
     print("1 is not a prime number.")
 
-if a > 1:
-    for i in range(2, a):
+else:
+    for i in range(2, math.ceil(math.sqrt(a))):
         if a % i == 0:
             print(f"{a} is not a prime number.")
             break

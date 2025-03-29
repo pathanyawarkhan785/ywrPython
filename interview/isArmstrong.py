@@ -3,10 +3,10 @@ num = int(
 )
 
 newNum = str(num)
-newNum = list(newNum)
 res = 0
+
 for i in range(0, len(newNum)):
-    res = res + (int(newNum[i]) * int(newNum[i]) * int(newNum[i]))
+    res += int(newNum[i]) ** 3
 
 if num == res:
     print(f"{num} is an Armstrong number.")

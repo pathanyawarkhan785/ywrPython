@@ -1,11 +1,11 @@
-# str = "Hello World"
+str = "Hello World"
 
 # print(str.lower())
 # print(str.upper())
 
 
-# str2 = "-----------Hello-------------World-----------"
-# print("\n---------------------strip------------------------\n")
+str2 = "-----------Hello-------------World-----------"
+
 # # strip : removes any leading, and trailing whitespaces.
 
 # print(str2.rstrip("-"))  # removes any leading, and trailing whitespaces from right.
@@ -15,6 +15,10 @@
 # )  # removes any leading, and trailing whitespaces from both side but not from middle.
 
 str3 = "hello mark, I am sr.mark."
+str4 = "123432"
+
+# print(list(str3))
+# print(list(str4))
 
 # replace
 # string.replace(oldvalue, newvalue, count)
@@ -29,9 +33,9 @@ str3 = "hello mark, I am sr.mark."
 # maxsplit	Optional. Specifies how many splits to do. Default value is -1, which is "all occurrences"
 # The split() method splits a string into a list.
 
-# print(
-#     str3.split(" ", 2)
-# )  # here 2 is maxsplit means from 2 spaces it will be splited after they combine whole word in 1 element.
+# str3 = str3.split(" ", 2)
+# print(str3)
+# here 2 is maxsplit means from 2 spaces it will be splited after they combine whole word in 1 element.
 
 # capitalize
 # this method converts first character in upper case and the rest string in lower case.
@@ -50,7 +54,8 @@ str3 = "hello mark, I am sr.mark."
 # start	Optional. An Integer. The position to start the search. Default is 0
 # end	Optional. An Integer. The position to end the search. Default is the end of the string
 
-# print(str3.count("mark", 0, 10))
+# print(str3.count("mark", 0, 10))  # str3[0] str3[10]
+# print(str3.count("mark"))
 
 
 # endsWith
@@ -78,7 +83,7 @@ str3 = "hello mark, I am sr.mark."
 # end	Optional. Where to end the search. Default is to the end of the string
 
 # print(str3.find("a"))
-# print(str3.find("z")) # returns -1
+# print(str3.find("z"))  # returns -1
 
 
 # index
@@ -86,7 +91,7 @@ str3 = "hello mark, I am sr.mark."
 # print(str3.index("a"))
 # print(str3.index("z"))  # throws error
 
-# iselnum
+# isalnum
 # The isalnum() method returns True if all the characters are alphanumeric, meaning alphabet letter (a-z) and numbers (0-9).
 # Example of characters that are not alphanumeric: (space)!#%&? etc.
 
@@ -106,8 +111,9 @@ str3 = "hello mark, I am sr.mark."
 # isprintable
 # The isprintable() method returns True if all the characters are printable, otherwise False.
 
-# str4 = "hello xyz\n"
-# print(str4.isprintable())  # result false because \n is not printable.
+# str4 = "hello xyz\n this is ywr"
+
+# print(str4)  # result false because \n is not printable.
 
 # isspace
 # The isspace() method returns True if all the characters in a string are whitespaces, otherwise False.
@@ -121,7 +127,7 @@ str3 = "hello mark, I am sr.mark."
 # The istitle() method returns True if all words in a text start with a upper case letter, AND the rest of the word are lower case letters, otherwise False.
 
 # strTitle = (
-#     "Hello james"  # "Hello James" -> return True -> because H & J is Capital here.
+#     "Hello James"  # "Hello James" -> return True -> because H & J is Capital here.
 # )
 # print(strTitle.istitle())  # it checks all the word's first character is capital or not.
 
@@ -147,6 +153,30 @@ str3 = "hello mark, I am sr.mark."
 Exponents, like ² and ¾ are also considered to be numeric values.
 "-1" and "1.5" are NOT considered numeric values, because all the characters in the string must be numeric, and the - and the . are not."""
 
-txt = "121"
-x = txt.isnumeric()
-print(x)
+# txt = "121"
+# x = txt.isnumeric()
+# print(x)
+
+
+# any in python
+# The any() function returns True if any item in an iterable are true, otherwise it returns False.
+# If the iterable object is empty, the any() function will return False.
+
+newStr = [1, False, 0]
+newStr2 = ""
+
+# print(any(newStr))
+
+
+# # all in python
+
+# The all() function returns True if all items in an iterable are true, otherwise it returns False.
+# If the iterable object is empty, the all() function also returns True.
+
+# lst = [1, 2, 3, 4, 0]
+# lst2 = [True, 1, 2, False]
+# lst3 = [1, 2, 3]
+
+# print(all(lst))
+# print(all(lst2))
+# print(all(lst3))

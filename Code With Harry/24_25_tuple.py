@@ -2,7 +2,7 @@
 # same process as list like slicing
 
 tpl = (23, 56, 23, 74)
-# tpl2 = tpl
+tpl2 = tpl
 
 # print(tpl)
 # print(tpl2)
@@ -27,10 +27,10 @@ tpl3 = (2, 31, 34, 4, 2, 3, 4, 2, 6, 2, 8)
 here 8 to 11 have this elements (6,2,8) now 2 is on 9th index so it returns 9."""
 
 
-# indexTwo = tpl3.index(2, 8, len(tpl3))
+indexTwo = tpl3.index(2, 8, len(tpl3))
 # print(indexTwo)
 
 # len
 
 lenTpl = (3, 2, 4, 2, 4)
-print(len(lenTpl))
+# print(len(lenTpl))

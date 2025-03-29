@@ -1,5 +1,3 @@
 a = int(input("enter number: "))
 
-print(f"{a} is greater") if a >= 15 else print(
-    f"{a} is lesser"
-) if a <= 10 else "not equals to 10"
+print(f"{a} is greater than 15") if a >= 15 else print(f"{a} is less than 15")
