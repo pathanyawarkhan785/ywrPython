@@ -1,5 +1,9 @@
 def swap_case(s):
 
+    # method 1
+    # return s.swapcase()
+
+    # method 2
     res = []
 
     for char in s:
@@ -11,7 +15,4 @@ def swap_case(s):
     return "".join(res)
 
 
-if __name__ == "__main__":
-    s = input()
-    result = swap_case(s)
-    print(result)
+print(swap_case("yAwaR"))

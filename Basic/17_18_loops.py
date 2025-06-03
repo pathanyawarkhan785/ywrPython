@@ -1,4 +1,4 @@
-# # here is 2 methods for printing 1 to 10 by range
+# here is 2 methods for printing 1 to 10 by range
 
 # for i in range(10):  # (0,10) 0,1,2,..9
 #     print(i + 1)

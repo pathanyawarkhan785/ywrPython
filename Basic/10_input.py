@@ -2,8 +2,8 @@
 # if you enter integer kindly convert value into integer first
 
 
-urNAME = input("ENTER name:")
-srNAME = input("ENTER srname:")
+urNAME = input("ENTER name: ")
+srNAME = input("ENTER srname: ")
 
 print("your name is " + urNAME + " your surname is " + srNAME)
 

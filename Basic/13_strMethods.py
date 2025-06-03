@@ -173,9 +173,9 @@ newStr2 = ""
 # The all() function returns True if all items in an iterable are true, otherwise it returns False.
 # If the iterable object is empty, the all() function also returns True.
 
-# lst = [1, 2, 3, 4, 0]
-# lst2 = [True, 1, 2, False]
-# lst3 = [1, 2, 3]
+lst = [1, 2, 3, 4, 0]
+lst2 = [True, 1, 2, False]
+lst3 = [1, 2, 3]
 
 # print(all(lst))
 # print(all(lst2))

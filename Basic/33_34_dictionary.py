@@ -44,3 +44,12 @@ dict2 = {5: "e", 6: "f"}
 
 # del dict1["xyz"]
 # print(dict1)
+
+
+# dict = {}
+# newStr = "yawar"
+
+# for i in newStr:
+#     dict[i] = dict.get(i, 0) + 1 // if element exists return its value otherwise 0(second argument)
+
+# print(dict)

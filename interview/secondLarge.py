@@ -13,4 +13,4 @@ def find_second_largest(my_list):
 
 my_list = [10, 5, 8, 20, 15]
 result = find_second_largest(my_list)
-print(f"The second largest element in the list is: {result}")
+print(result)

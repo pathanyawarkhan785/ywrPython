@@ -1,0 +1,2 @@
+
+numericPat(5)

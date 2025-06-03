@@ -48,10 +48,10 @@ lstMethod = [4, 24, 21, 16, 54, 75, 23, 16, 21]
 
 revStr = [14, 23, 64]
 # 1st method
-# print(revStr[::-1])
+# print(revStr[::-1]) // This creates a new reversed list but doesn’t modify the original.
 
 # 2nd method
-# revStr.reverse()
+# revStr.reverse() // This reverses the list in place, modifying the original list.
 # print(revStr)
 
 # index
